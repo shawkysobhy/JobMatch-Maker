@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* :root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+} */
+.header {
+	background-image: url('./assets/bg-header-desktop.svg');
+}
+
+input[type="file"]::file-selector-button {
+  font: inherit;
+  font-weight: 500;
+  padding: 10px 15px;
+  margin-right: 1.2rem;
+  border-radius: 6px;
+  border: none;
+  color:white ;
+  background-color: hsl(180, 29%, 50%);
+  cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: hsl(180, 8%, 52%);
+}
+.custom-h{
+	min-height: calc(100vh - 100px);
+}
